@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    color: brown;
+    background-color: yellowgreen;
+    font-size: 150px;
+}
+p{
+    color: blue;
+}
