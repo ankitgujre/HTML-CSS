@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100;
+}
+
+h1{
+    color: rgb(37, 36, 36);
+    background-color: pink;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    /* background: linear-gradient(crimson, black, yellow); */
+    /* background: linear-gradient(to right, red,green,yellow); */
+    /* background: linear-gradient(to left, red,green,yellow); */
+    /* diagonally dikhane ke lioye */
+    /* background: linear-gradient(to right bottom, red,green,yellow); */
+    /* background: linear-gradient(to left bottom, red,green,yellow); */
+    background: linear-gradient(to right, red 35%,green 20%,yellow); /*kisi color ko kam jyada dikhane ke liye*/
+}
+
+#box3{
+    height: 300px;
+    width: 300px;
+    /* background: radial-gradient(red,purple, orange, yellow); isme circular way me colors aate hai */
+    background: conic-gradient(violet, indigo, blue, green, yellow, red, violet);
+}
+
+.outer{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.inner{
+    height: 65%;
+    width: 100px;
+    background-color: green;
+}
