@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#car1{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    /* position: absolute; */
+}
+
+#car2{
+    height: 250px;
+    width: 250px;
+    background-color: greenyellow;
+    position: absolute; /* jo bhi element absolute hota hai vo upar uth jata hai uski space khali hoti hai 
+    aur uske jagah koi aur element ya baad wala element ajata hai */
+    left: 80px;
+
+    /* top left righ bottom and z-index ye sirf position elements pe kaam karta hai
+    just like absolute, relative, sticky, fixed */
+}
+
+#car3{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
+
+.box{
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+    position: relative;  /* ye parent elemnt pe lagta hai */
+}
+
+.smallbox{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    left: 50%;
+}
+
+#box1{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+#innerbox{
+     width: 300px;
+    height: 300px;
+    background-color: yellow;
+}
+
+#microinnerbox{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#actualbox{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
