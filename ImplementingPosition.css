@@ -17,8 +17,63 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: #222;
+    color: white;
+    /* position: relative; */
+
+}
+
+#nav{
+    padding: 10px 30px;
 }
 #nav a{
     color: white;
     text-decoration: none;
+    font-size: 25px;
+    margin: 30px;
+}
+
+#main>h1{
+    font-size: 300px;
+    font-weight: 400;
+    color: white;
+    padding-left: 70px;
+}
+
+#bottom-left{
+    position: absolute;
+    bottom: 20%;
+    left: 3%;
+    /* background-color: aquamarine; */
+    width: 300px;
+    /* padding-top: 50px; */
+    /* margin-top: 50px; */
+}
+#bottom-left h3{
+    font-size: 30px;
+}
+#bottom-left h4{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#bottom-left p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#bottombar{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: blue;
+    padding: 30px 70px;
+}
+
+#bottombar a{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
 }
