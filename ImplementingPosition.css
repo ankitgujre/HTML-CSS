@@ -16,8 +16,8 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: #222;
-    color: white;
+    /* background-color: #222; */
+    color: black
     /* position: relative; */
 
 }
@@ -35,7 +35,8 @@ html,body{
 #main>h1{
     font-size: 300px;
     font-weight: 400;
-    color: white;
+    /* color: white; */
+    color: black;
     padding-left: 70px;
 }
 
@@ -68,7 +69,7 @@ html,body{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     padding: 30px 70px;
 }
 
@@ -76,4 +77,26 @@ html,body{
     color: white;
     text-decoration: none;
     font-size: 32px;
+}
+
+#main>img{
+    height: 290px;
+    position: absolute;
+}
+
+#main #first{
+    top: 40%;
+    left: 55%;
+}
+
+#main #second{
+    height: 400px;
+    top: 35%;
+    left: 40%;
+}
+
+#main #third{
+    height: 200px;
+    top: 65%;
+    left: 30%;
 }

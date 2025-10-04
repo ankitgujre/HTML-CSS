@@ -12,6 +12,19 @@ html,body{
     height: 100%;
     width: 100%;
     background-color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    align-items: center; 
+    /* align item y axis pe kaam krta hai screen ke */
+    /* justify-content: center; */
+    /* justify-content: flex-end; */
+
+    /*justify-content x axis pe kaam karta hai*/
+    /* justify-content: space-between; */
+    justify-content: space-around;
 }
 
 #box1{
