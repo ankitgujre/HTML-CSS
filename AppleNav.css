@@ -1,7 +1,13 @@
+@font-face {
+    font-family: apple;
+    src: url("../SF-Pro.dmg");
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: apple;
 }
 html,body{
     height: 100%;
@@ -11,7 +17,7 @@ html,body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
 }
 
 #nav{
@@ -37,7 +43,11 @@ html,body{
 #center{
     height: 80%;
     width: 100%;
-    background-color: black;
+    /* background-color: black; */
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_medium.jpg);
+    background-position: center;
+    /* background: cover; */
+    background-size: cover;
     text-align: center;
     padding: 50px;
 }
@@ -50,7 +60,7 @@ h1{
 h5{
     color: white;
     font-size: 40px;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 #links{
