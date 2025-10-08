@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+#box1{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://images.unsplash.com/photo-1756990683708-afd38ed20f1f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8Q0R3dXdYSkFiRXd8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    /* transform: rotate(180deg); */
+    /* transform: rotateX(180deg); */
+    transform: rotatey(100deg);
+    /* transform: rotateZ(50deg); */
+
+    /* transform: scale(1);   by default  1 hoti hai original size hoti hai*/
+    /* transform: scale(3);  3 guna */
+    transform: scale(2);
+}
