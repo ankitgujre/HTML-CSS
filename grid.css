@@ -24,10 +24,16 @@ main{
 
     /* grid-template-columns: 100px minmax(200px, 456px) 100px; */
     grid-template-columns: 100px minmax(200px, auto) 100px;
-
+    /* grid-template-columns: repeat(2, 150px); */
+    grid-template-columns: repeat(4, 1fr);
     /* row-gap: 10px; */
     /* column-gap: 5px; */
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
+
+    /* align-items: flex-start; */
+    /* align-items: start; */
+    /* justify-items: center; */
+    /* justify-items: start; */
 }
 
 .child{
