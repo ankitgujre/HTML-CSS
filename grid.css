@@ -28,7 +28,7 @@ main{
     grid-template-columns: repeat(4, 1fr);
     /* row-gap: 10px; */
     /* column-gap: 5px; */
-    /* grid-gap: 10px; */
+    grid-gap: 10px;
 
     /* align-items: flex-start; */
     /* align-items: start; */
@@ -41,4 +41,9 @@ main{
     border: 3px solid rgb(240, 18, 18);
     height: 100px;
     width: 100px;
+}
+
+#child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
