@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body, html{
+html,body{
     height: 100%;
     width: 100%;
 }
@@ -14,36 +14,34 @@ main{
     width: 100%;
     background-color: black;
     display: grid;
-    /* grid-template-columns: 200px 200px 200px 500px; */
-    /* grid-template-columns: 33% 33% 33%; */
-    /* grid-template-columns: 50% 50%; */
-
-    /* grid-template-rows: 20% 55%; */
-    /* grid-template-columns: 1fr 1fr 1fr; */
-    /* grid-template-columns: 1fr 2fr 5fr; */
-
-    /* grid-template-columns: 100px minmax(200px, 456px) 100px; */
-    /* grid-template-columns: 100px minmax(200px, auto) 100px; */
-    /* grid-template-columns: repeat(2, 150px); */
-    /* grid-template-columns: repeat(4, 1fr); */
-    /* row-gap: 10px; */
-    /* column-gap: 5px; */
-    /* grid-gap: 10px; */
-
-    /* align-items: flex-start; */
-    /* align-items: start; */
-    /* justify-items: center; */
-    /* justify-items: start; */
+    gap: 20px;
+    padding: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr;
+    grid-template-areas: "header header header"
+                            "section section section"
+                            "div1 div2 div3"
+    ;
 }
 
-/* .child{
-    background-color: aquamarine;
-    border: 3px solid rgb(240, 18, 18);
-    height: 100px;
-    width: 100px;
+header{
+    background-color: aqua;
+    grid-area: header;
+}
+section{
+    background-color: bisque;
+    grid-area: section;
+}
+#div1{
+    background-color: darkmagenta;
+    grid-area: div1;
 }
 
-#child1{
-    grid-column-start: 1;
-    grid-column-end: 3;
-} */
+#div2{
+    background-color: blue;
+    grid-area: div2;
+}
+#div3{
+    background-color: magenta;
+    grid-area: div3;
+}
