@@ -1,29 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./grid.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid Layout Example</title>
+  <style>
+    main {
+        background-color: black;
+      display: grid; /* ✅ make it a grid container */
+      color: blue;
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 60px 1fr 80px;
+      grid-template-areas:
+        "header header"
+        "aside section"
+        "footer footer";
+      height: 100vh; /* optional: fill the screen */
+      gap: 10px; /* optional spacing */
+    }
+
+    header {
+      background-color: gold;
+      grid-area: header;
+    }
+
+    aside {
+      background-color: aqua;
+      grid-area: aside;
+    }
+
+    section {
+      background-color: midnightblue;
+      grid-area: section;
+    }
+
+    footer {
+      background-color: maroon;
+      grid-area: footer;
+    }
+  </style>
 </head>
 <body>
-    <main>
-        <!-- <div class="child">1</div>
-        <div class="child">2</div>
-        <div class="child">3</div>
-        <div class="child">4</div>
-        <div class="child">5</div>
-        <div class="child">6</div>
-        <div class="child">7</div>
-        <div class="child">8</div>
-        <div class="child">9</div>
-        <div class="child">10</div> -->
-
-        <div class="child" id="child1"></div>
-        <div class="child" id="child2"></div>
-        <div class="child" id="child3"></div>
-        <div class="child" id="child4"></div>
-        <div class="child" id="child5"></div>
-    </main>
+  <main>
+    <header>Header</header>
+    <aside>Aside</aside>
+    <section>Section</section>
+    <footer>Footer</footer>
+  </main>
 </body>
 </html>
