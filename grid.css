@@ -14,13 +14,17 @@ main{
     width: 100%;
     background-color: black;
    display: grid;
-   grid-template-columns: 200px 1fr;
-   grid-template-rows: 60px 180px 1fr;
-    gap: 10px;
-    padding: 10px;
-   grid-template-areas: "header header"
-   "aside section"
-   "figure figure";
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 70px 1fr 0.5fr 0.5fr;
+
+   gap: 10px;
+   padding: 10px;
+   
+   grid-template-areas: "header header header"
+   "section section section"
+   "div-left bottom-up div-right"
+   "div-left bottom-down div-right"
+   ;
 }
 
 header{
@@ -31,11 +35,28 @@ section{
     background-color: bisque;
     grid-area: section;
 }
-aside{
+/* aside{
     background-color: yellow;
     grid-area: aside;
 }
 figure{
     background-color: blueviolet;
     grid-area: figure;
+} */
+
+#bottom-up{
+    background-color: pink;
+    grid-area: bottom-up;
+}
+#bottom-down{
+    background-color: teal;
+    grid-area: bottom-down;
+}
+#div-right{
+    background-color: red;
+    grid-area: div-right;
+}
+#div-left{
+    background-color: goldenrod;
+    grid-area: div-left;
 }
