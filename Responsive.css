@@ -21,3 +21,14 @@ html,body{
     width: 30%;  /* percentage screen ki size ke hisaab se size leta hai aur parent ke hisab se*/
     background-color: blueviolet;
 }
+
+#box2{
+    height: 300vmin;
+    width: 300vmin;
+    background-color: aquamarine;
+}
+h1{
+
+    font-size: 10vmax;  /* viewport max height and width ke according kaam karta hai
+    ek samay pe cota bada hona ruk jayege*/
+}
