@@ -32,5 +32,9 @@ h6{
 }
 
 p{
-    font-size: 0.5em;
+    font-size: 2rem;
 }   /*parent ko jo font size diya 0.5em adha krdega*/
+
+/*
+1rem = 16px
+*/
