@@ -9,13 +9,15 @@ html,body{
 }
 
 #box{
-    height: 60%;
-    width: 80%;
+    /*vw = viewport width
+    vh = viewport height*/
+    height: 30vh;
+    width: 80vw;  /*vw vh screen ke respect me kaam karte hai*/
     background-color: crimson;
 }
 
 #innerbox{
-    height: 30%;
+    height: 30%; /*% depend karta hai parent pe*/
     width: 30%;  /* percentage screen ki size ke hisaab se size leta hai aur parent ke hisab se*/
     background-color: blueviolet;
 }
