@@ -8,7 +8,14 @@ html,body{
     width: 100%;
 }
 
-h1{
-    color: red;
-    font-size: 70px;   /*pixel fixed rehta hai isme screen ka size kam jyada karoge koi farak nahi padega*/
+#box{
+    height: 60%;
+    width: 80%;
+    background-color: crimson;
+}
+
+#innerbox{
+    height: 30%;
+    width: 30%;  /* percentage screen ki size ke hisaab se size leta hai aur parent ke hisab se*/
+    background-color: blueviolet;
 }
