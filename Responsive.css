@@ -8,27 +8,29 @@ html,body{
     width: 100%;
 }
 
-#box{
-    /*vw = viewport width
-    vh = viewport height*/
-    height: 30vh;
-    width: 80vw;  /*vw vh screen ke respect me kaam karte hai*/
-    background-color: crimson;
+#parent{
+    background-color: bisque;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+
+    font-size: 40px;
+    color: rgb(237, 40, 73);
 }
 
-#innerbox{
-    height: 30%; /*% depend karta hai parent pe*/
-    width: 30%;  /* percentage screen ki size ke hisaab se size leta hai aur parent ke hisab se*/
-    background-color: blueviolet;
+/*
+em ka matlab parent se control hoga
+*/
+h2{
+    font-size: 1em;  /*parent ko jo font size diya 1em bhi utna hi lega*/
+}
+h4{
+    font-size: 2em;  /*parent ko jo font size diya 2em 2x krdega*/
+}
+h6{
+    font-size: 3em;   /*parent ko jo font size diya 2em 3x krdega*/
 }
 
-#box2{
-    height: 300vmin;
-    width: 300vmin;
-    background-color: aquamarine;
-}
-h1{
-
-    font-size: 10vmax;  /* viewport max height and width ke according kaam karta hai
-    ek samay pe cota bada hona ruk jayege*/
-}
+p{
+    font-size: 0.5em;
+}   /*parent ko jo font size diya 0.5em adha krdega*/
